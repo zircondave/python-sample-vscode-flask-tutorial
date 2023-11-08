@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'default'
+  vmImage: testSpotAsset
 strategy:
   matrix:
     Python37:
